@@ -1,0 +1,53 @@
+# Private user backup content: never publish.
+/Custom_GPT_backup/
+/**/Custom_GPT_backup/
+/gpts/
+/**/gpts/
+**/gpt_list_snapshot.json
+**/direct_gpt_*inventory*.csv
+**/direct_gpt_*receipts*.jsonl
+**/Shared_Knowledge_candidates/
+**/My Downloads Arhiv*/
+**/Knowledge/
+**/knowledge/
+**/*Instructions*.md
+**/*Actions_metadata*.json
+**/export_manifest.json
+**/gpt_icons_inventory*.csv
+**/Direct_GPT_UI_probes/
+**/Obsidian_Auto_Restore/
+**/Library_phase2_candidates/
+
+# Authentication, debug sessions and logs.
+.chatgpt_backup*_profile/
+**/.chatgpt_backup*_profile/
+**/DevToolsActivePort
+**/Cookies
+**/Local Storage/
+**/Session Storage/
+**/Network/
+*.log
+*.jsonl
+*.har
+*.trace
+*.part
+*.tmp
+
+# Outputs, archives and virtual environments.
+*.zip
+*.7z
+*.rar
+*.xlsx
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
